@@ -481,7 +481,7 @@ article li {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     header img {
         margin-top: 3em;
         margin-bottom: 2em;
