@@ -234,19 +234,53 @@ article p {
     color: #858e97;
 }
 
-article ul {
+#paidList ul {
     padding-left: 2em;
     font-size:x-small;
     line-height: 3em;
+   
 }
 
-article li {
-    list-style: url(./assets/icon-check.svg);
-    padding-left: 1em;
+#paidList li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
     font-size:x-small;
     line-height: 3em;
-    font-weight: bold;
+    font-weight:bold;
+    transform: translateX(-5%);
 }
+#paidList li:before {
+    content: "\2714";
+    color:#080c20;
+    font-weight: bold;
+    margin-right: 2em;
+    
+}
+
+#freelist ul {
+    padding-left: 0;
+    font-size:x-small;
+    line-height: 3em;
+    
+}
+
+#freeList li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size:x-small;
+    line-height: 3em;
+    font-weight:bold;
+    transform: translateX(-17%);
+}
+#freeList li:before {
+    content: "\2714";
+    color:#3ee9e5;
+    font-weight: bold;
+    margin-right: 2em;
+    
+  }
 
 .pricingPlan2info {
     font-family: 'Manrope', sans-serif;
