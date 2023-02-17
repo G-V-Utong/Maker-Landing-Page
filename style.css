@@ -477,10 +477,11 @@ article li {
         font-family: 'Manrope', sans-serif;
         font-weight: bold;
         cursor: pointer;
+        border: none;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     header img {
         margin-top: 3em;
         margin-bottom: 2em;
@@ -708,6 +709,7 @@ article li {
         font-family: 'Manrope', sans-serif;
         cursor: pointer;
         font-weight: bold;
+        border: none;
     }
     
     #subscription {
