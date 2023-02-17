@@ -196,6 +196,7 @@ header img {
     padding-left: 2em;
     font-family: 'Manrope', sans-serif;
     margin-right: 1em;
+    font-weight: bold;
 }
 
 .footerDiv button{
@@ -206,6 +207,7 @@ header img {
     border-radius: 50px;
     font-family: 'Manrope', sans-serif;
     cursor: pointer;
+    font-weight: bold;
 }
 
 article {
@@ -463,6 +465,7 @@ article li {
         padding-left: 2em;
         font-family: 'Manrope', sans-serif;
         margin-right: 1em;
+        font-weight: bold;
     }
     
     .footerDiv button{
@@ -481,7 +484,7 @@ article li {
     header img {
         margin-top: 3em;
         margin-bottom: 2em;
-        margin-left: 30%;
+        margin-left: 35%;
     }
     #mainDiv{
         background-image: url(./assets/illustration-hero-left.svg), url(./assets/illustration-hero-right.svg);
@@ -693,6 +696,7 @@ article li {
         font-family: 'Manrope', sans-serif;
         margin-right: 0;
         margin-bottom: 1em;
+        font-weight: bold;
     }
     
     .footerDiv button{
@@ -703,6 +707,7 @@ article li {
         border-radius: 50px;
         font-family: 'Manrope', sans-serif;
         cursor: pointer;
+        font-weight: bold;
     }
     
     #subscription {
